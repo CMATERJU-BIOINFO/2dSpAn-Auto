@@ -1,11 +1,6 @@
 # 2D Span Auto
 
-//[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-//[![Version](https://img.shields.io/badge/Version-2.3.1-brightgreen.svg)](https://github.com/yourusername/2d-span-auto/releases)
-
 **2D Span Auto** is an advanced image analysis software specifically designed for automated detection and analysis of dendritic spines in neuronal images. This tool enables researchers to efficiently analyze spine morphology with minimal manual intervention.
-
-![Software Interface](https://github.com/yourusername/2d-span-auto/raw/main/Screenshots/GUI/Overview.png)
 
 ## Table of Contents
 
@@ -38,11 +33,11 @@
 
 ## Installation
 
-1. Download the latest release from the [releases page](https://github.com/yourusername/2d-span-auto/releases)
+1. Download the latest release from the [GitHub repository](https://github.com/yourusername/2d-span-auto)
 2. Extract the zip file to your desired location
-3. Run the executable `2D_Span_Auto.exe` (Windows) or `2D_Span_Auto.app` (macOS)
+3. Run the executable **directly** from the extracted folder (No installation required)
 
-*Note: No additional installation is required. The software runs as a standalone application.*
+Alternatively, use the **installer available in the GitHub repository** for a guided installation.
 
 ## Quick Start
 
@@ -63,8 +58,6 @@ The Image Processing Module prepares neuronal images for analysis through:
 - **Binarization**: Several methods (Global Threshold, K-means Clustering, Otsu's Method, U-Net)
 - **Artifact Removal**: Tools to clean up the binary image
 
-![Binarization Example](https://github.com/yourusername/2d-span-auto/raw/main/Screenshots/img%20processing/binary/Otsu.png)
-
 ### Dendrite Extraction and Spine Compartmentalization (DESC) Module
 
 The DESC Module performs the core analysis in three stages:
@@ -77,8 +70,6 @@ Key features include:
 - Blum's Grassfire algorithm for skeletonization
 - Automated dendrite shaft extraction
 - Precise spine compartmentalization (SBP, CHP, HNJ detection)
-
-![Skeletonization](https://github.com/yourusername/2d-span-auto/raw/main/Screenshots/Working/Skeleton.png)
 
 ### MorphoAnalyser Module
 
@@ -93,8 +84,6 @@ Metrics include:
 - Length measurements
 - Head and neck diameters
 - Morphological ratios
-
-![Spine Classification](https://github.com/yourusername/2d-span-auto/raw/main/Screenshots/Working/Binary_overlay.png)
 
 ## Detailed Workflow Example
 
@@ -130,8 +119,6 @@ Below is a step-by-step guide to analyze a typical neuronal image:
 ### 7. Save Results
 - Save analysis state for future reference
 - Export statistical data as CSV files
-
-For a complete visual walkthrough, refer to the [detailed workflow guide](docs/workflow.md).
 
 ## System Requirements
 
@@ -181,13 +168,13 @@ Contributions to 2D Span Auto are welcome! Please see our [contributing guidelin
 If you use 2D Span Auto in your research, please cite:
 
 ```
-Author, A., Author, B., & Author, C. (Year). 2D Span Auto: Automated dendritic spine analysis software. 
+Author, A., Author, B., & Author, C. (Year). 2D Span Auto: Automated dendritic spine analysis software.
 Journal of Neuroscience Methods, Volume(Issue), Pages. https://doi.org/10.xxxx/xxxxx
 ```
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **GPL 3.0 License** - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
@@ -195,3 +182,4 @@ For questions, support, or collaboration:
 - Email: support@2dspanauto.org
 - GitHub Issues: [Report a bug or request a feature](https://github.com/yourusername/2d-span-auto/issues)
 - Website: [www.2dspanauto.org](https://www.2dspanauto.org)
+
