@@ -33,7 +33,7 @@
 
 ## Installation
 
-1. Download the latest release from the [GitHub repository](https://github.com/yourusername/2d-span-auto)
+1. Download the latest release from the repository.
 2. Extract the zip file to your desired location
 3. Run the executable **directly** from the extracted folder (No installation required)
 
